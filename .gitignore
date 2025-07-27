@@ -1,0 +1,71 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Vim swap files
+*.swp
+*.swo
+
+# Temporary files
+*~
+*.bak
+*.tmp
+
+# Logs (typically not committed to Git)
+# /var/log/monitoring_logs/cpu_monitoring.log
+# /var/log/monitoring_logs/mem_monitoring.log
+
+# IDE and Editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Virtual environment directories
+venv/
+env/
+*.pyc
+
+# Compiled output
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.blt
+*.dll
+*.exe
+*.obj
+*.lib
+*.mod
+*.pdb
+*.ilk
+*.sbr
+*.res
+*.tds
+*.sym
+*.sys
+*.bak
+*.orig
+*.rej
+*.diff
+*.patch
+*.log
+*.aux
+*.bbl
+*.blg
+*.brf
+*.cb
+*.dvi
+*.fls
+*.idx
+*.lof
+*.lot
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.fdb_latexmk
+*.synctex.gz
+
