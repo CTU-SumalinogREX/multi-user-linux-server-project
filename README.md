@@ -4,8 +4,16 @@
 
 This repository documents the setup and configuration of a secure, multi-user Linux server environment. The project simulates real-world system administration tasks, utilizing **CentOS Stream 9** as the server and **Ubuntu** as the client. It covers essential skills in user management, SSH security, file permissions, network firewalling, web server deployment, and system monitoring.
 
-**Project Duration:** 2-3 days
-**Team Size:** 2-3 members
+### Project Details
+
+* **Project Duration:** 2-3 days
+* **Team Size:** 2-3 members
+
+### Team Members
+
+* Cherish Gohee
+* Rosemarie Mahinay
+* Rex Sumalinog
 
 ## Objectives
 
