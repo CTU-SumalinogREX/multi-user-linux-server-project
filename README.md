@@ -213,7 +213,7 @@ As your Senior SRE, here are some key recommendations and best practices highlig
 * `scripts/`: Contains the BASH monitoring scripts.
     * [`cpu_monitoring.sh`](./scripts/cpu_monitoring.sh)
     * [`mem_monitoring.sh`](./scripts/mem_monitoring.sh)
-* `project-report/`: (Optional) If you want to include your original `Project.docx` or a PDF version of it, place it here. Update the `README.md` to link to it.
+* `project-report/`: (Optional) PDF version
 
 ## License
 
