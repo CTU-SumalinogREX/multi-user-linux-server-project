@@ -49,9 +49,6 @@ Set up user accounts (`adminuser`, `devuser`, `guestuser`) and the `developers` 
 > **1.4. Verify User and Group Assignments**
 > *Description:* Confirm user IDs and group memberships.
 
-<!-- GIF Placeholder: User and Group Management -->
-*Include a GIF here showing the execution of these commands and their output.*
-
 ---
 
 ### 2. Password Policies
@@ -64,9 +61,6 @@ Enforce password expiration and warning periods for all user accounts. Passwords
 >
 > **2.2. Verify Password Policies**
 > *Description:* Confirm the applied password aging information.
-
-<!-- GIF Placeholder: Password Policies -->
-*Include a GIF here showing the execution of these commands and their output.*
 
 ---
 
@@ -84,9 +78,6 @@ Create a shared directory (`/srv/devshare`) for the `developers` group with read
 > **3.3. Install ACL Package and Apply ACL for `guestuser`**
 > *Description:* Install ACL utilities and grant `guestuser` read-only access.
 
-<!-- GIF Placeholder: Shared Directory Configuration -->
-*Include a GIF here showing the execution of these commands and their output.*
-
 ---
 
 ### 4. SSH Configuration
@@ -102,9 +93,6 @@ Set up secure SSH key-based login from the Ubuntu client for `adminuser` and `de
 >
 > **4.3. Disable Password Login for `adminuser` (on CentOS Server)**
 > *Description:* Modify SSH daemon configuration to enforce key-based authentication for `adminuser`.
-
-<!-- GIF Placeholder: SSH Configuration -->
-*Include a GIF here showing the execution of these commands and their output.*
 
 ---
 
@@ -122,9 +110,6 @@ Ensure network connectivity and secure the CentOS server by allowing only SSH (p
 > **5.3. Reload `firewalld` and Verify Rules**
 > *Description:* Apply new firewall rules and confirm their active status.
 
-<!-- GIF Placeholder: Firewall Configuration -->
-*Include a GIF here showing the execution of these commands and their output.*
-
 ---
 
 ### 6. Web Server Deployment
@@ -141,9 +126,6 @@ Install Apache HTTP Server (`httpd`) on the CentOS server and verify its accessi
 > *Description:* Use `curl` to confirm the client can access the web server's **default welcome page**.
 > *Expected Output:* The default Apache welcome page HTML content.
 
-<!-- GIF Placeholder: Web Server Deployment -->
-*Include a GIF here showing the execution of these commands and their output.*
-
 ---
 
 ### 7. System Monitoring and Logging
@@ -158,26 +140,14 @@ Create BASH scripts to monitor CPU and memory utilization, log their status, and
 * Scripts run every **10 minutes** via `cron`.
 
 **Commands Executed (on CentOS Server):**
-> **7.1. Create Monitoring Logs Directory**
-> *Description:* Ensure the dedicated directory for monitoring logs exists.
->
-> #### 7.2. CPU Utilization Monitor Script (`scripts/cpu_monitoring.sh`)
+> #### 7.1. CPU Utilization Monitor Script (`scripts/cpu_monitoring.sh`)
 > *Description:* This script calculates CPU utilization, determines status, and logs the result.
 >
-> #### 7.3. Memory Utilization Monitor Script (`scripts/mem_monitoring.sh`)
+> #### 7.2. Memory Utilization Monitor Script (`scripts/mem_monitoring.sh`)
 > *Description:* This script calculates memory utilization, determines status, and logs the result.
 >
-> **7.4. Script Setup Commands (on CentOS Server)**
-> *Description:* Steps to create/edit script files, make them executable, and run a cleanup for hidden characters.
->
-> **7.5. Cron Job Setup (on CentOS Server)**
+> #### 7.3. Cron Job Setup (on CentOS Server)
 > *Description:* Configure `cron` to run the monitoring scripts automatically every 10 minutes as the `root` user.
-
-<!-- GIF Placeholder: Monitoring Script Setup -->
-*Include a GIF here showing the process of creating/editing the scripts, making them executable, and running the `sed` cleanup.*
-
-<!-- GIF Placeholder: Cron Job Setup and Verification -->
-*Include a GIF here showing the process of editing crontab, saving, and then showing the log file updates after a short wait.*
 
 ---
 
