@@ -211,7 +211,7 @@ Create BASH scripts to monitor CPU and memory utilization, log their status, and
 * `scripts/`: Contains the BASH monitoring scripts.
     * [`cpu_monitoring.sh`](./scripts/cpu_monitoring.sh)
     * [`mem_monitoring.sh`](./scripts/mem_monitoring.sh)
-* `project-report/`: (Optional) PDF version
+* `project-report/`: PDF version
 
 ## License
 
