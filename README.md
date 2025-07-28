@@ -146,7 +146,10 @@ Create BASH scripts to monitor CPU and memory utilization, log their status, and
 > #### 7.2. Memory Utilization Monitor Script (`scripts/mem_monitoring.sh`)
 > *Description:* This script calculates memory utilization, determines status, and logs the result.
 >
-> #### 7.3. Cron Job Setup (on CentOS Server)
+> #### 7.3. Test Monitoring Scripts
+> *Description:* Run the scripts to verify their functionality and ensure logs are generated correctly before setting up cron.
+> 
+> #### 7.4. Cron Job Setup (on CentOS Server)
 > *Description:* Configure `cron` to run the monitoring scripts automatically every 10 minutes as the `root` user.
 
 ---
