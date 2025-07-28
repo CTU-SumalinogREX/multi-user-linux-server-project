@@ -194,8 +194,6 @@ Create BASH scripts to monitor CPU and memory utilization, log their status, and
 
 ## Recommendations and Best Practices
 
-As your Senior SRE, here are some key recommendations and best practices highlighted during this project that you should consider for future real-world deployments:
-
 * **Principle of Least Privilege:** Consider dedicated, unprivileged users for cron jobs with specific `sudo` permissions via `/etc/sudoers.d/`.
 * **Robust Log Management:** Implement log rotation (e.g., `logrotate`) to manage log file growth.
 * **Alerting Integration:** Integrate monitoring scripts with alerting systems (email, Slack, PagerDuty) for critical status changes.
