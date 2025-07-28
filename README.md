@@ -83,9 +83,6 @@ Create a shared directory (`/srv/devshare`) for the `developers` group with read
 >
 > **3.3. Install ACL Package and Apply ACL for `guestuser`**
 > *Description:* Install ACL utilities and grant `guestuser` read-only access.
->
-> **3.4. Verify Permissions and ACLs**
-> *Description:* Confirm directory permissions and applied ACLs.
 
 <!-- GIF Placeholder: Shared Directory Configuration -->
 *Include a GIF here showing the execution of these commands and their output.*
