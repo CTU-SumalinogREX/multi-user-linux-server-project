@@ -132,22 +132,14 @@ Ensure network connectivity and secure the CentOS server by allowing only SSH (p
 Install Apache HTTP Server (`httpd`) on the CentOS server and verify its accessibility from the Ubuntu client.
 
 **Commands Executed (on CentOS Server):**
-> **6.1. Install Apache HTTP Server**
-> *Description:* Install the Apache web server package.
->
-> **6.2. Create a Custom HTML Page**
-> *Description:* Create a simple `index.html` file for the web server's default page.
->
-> **6.3. Start and Enable Apache Service**
-> *Description:* Start the web server and configure it to launch on system boot.
->
-> **6.4. Verify Apache Service Status**
-> *Description:* Confirm that the Apache web server is running.
+> **6.1. Install, Start, and Verify Apache Service**
+> *Description:* Install the Apache web server, start it, enable it to run on boot, and confirm its active status.
+
 
 **Verification (on Ubuntu Client):**
-> **6.5. Access Web Server from Client**
-> *Description:* Use `curl` to confirm the client can access the web server.
-> *Expected Output:* HTML content of the custom `index.html` page.
+> **6.2. Access Web Server from Client**
+> *Description:* Use `curl` to confirm the client can access the web server's **default welcome page**.
+> *Expected Output:* The default Apache welcome page HTML content.
 
 <!-- GIF Placeholder: Web Server Deployment -->
 *Include a GIF here showing the execution of these commands and their output.*
